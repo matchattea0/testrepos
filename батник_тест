@@ -1,0 +1,7 @@
+@echo off
+color 0a
+
+:loop
+set /p input=Input:
+echo %input%
+goto loop
